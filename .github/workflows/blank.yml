@@ -13,11 +13,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
 jobs:
   call-workflow:
-    uses: octo-org/example-repo/.github/workflows/workflow-A.yml@v1
+    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
 
   call-workflow-passing-data:
-    uses: octo-org/example-repo/.github/workflows/workflow-B.yml@main
+    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
     with:
-      username: mona
+      username: stanlyonhack
     secrets:
       token: ${{ secrets.TOKEN }}
