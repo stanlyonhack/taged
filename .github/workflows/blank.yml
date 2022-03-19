@@ -7,9 +7,6 @@ on:
 jobs:
   call-workflow:
     uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
-
-  call-workflow-passing-data:
-    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
     with:
       username: stanlyonhack
     secrets:
