@@ -13,10 +13,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
 jobs:
   call-workflow:
-    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
+    uses: stanlyonhack/headed/blob/main/.github/workflows/workflow-1.yml@main
 
   call-workflow-passing-data:
-    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
+    uses: stanlyonhack/headed/blob/main/.github/workflows/workflow-1.yml@main
     with:
       username: stanlyonhack
     secrets:
