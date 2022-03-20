@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@﻿main #in main
+    uses: stanlyonhack/headed/.github/workflows/workflow-1.yml@main
     with:
       username: stanlyonhack
     secrets:
